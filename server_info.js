@@ -71,7 +71,7 @@ function fetchIPInfo(data) {
   });
 }
 
-/* // 3、解析数据
+// 3、解析数据
 function json2info(data1, data) {
   console.log("开始解析数据、、、\n");
   data1 = JSON.parse(data1).data;
@@ -91,35 +91,5 @@ function json2info(data1, data) {
   message += "------------------------------" + "</br>"
   message += "<font color=#6959CD><b>节点</b> ➟ " + $environment.params + "</font>";
   message = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: lighter">` + message + `</p>`;
-  console.log("\n" + message);
-}
- */
-// 3、解析数据
-function json2info(data1, data) {
-  console.log("开始解析数据...\n");
-  data1 = JSON.parse(data1).data;
-  data = JSON.parse(data);
-  console.log("结束解析数据，开始组装内容...\n");
-
-  // 组装每一行内容
-  let message = "<p style='text-align: center; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: large; font-weight: lighter;'>";
-
-  message += "<b>IP：</b> " + data1.ip + "<br>";
-  message += "<b>运营商(isp)：</b> " + data1.isp + "<br>";
-  message += "<b>网络类型：</b> " + data1.netWorkType + "<br>";
-  message += "<b>真人概率：</b> " + data1.score + "<br>";
-  message += "<b>位置：</b> " + data1.countryCode + "-" + data1.country + "-" + data1.province + "-" + data1.city + "-" + data1.districts + "<br>";
-  message += "<b>ZIP：</b> " + data.zip + "<br>";
-  message += "<b>经纬度：</b> " + data.lon + " / " + data.lat + "<br>";
-  message += "<b>时区：</b> " + data.timezone + "<br>";
-
-  // 使用 <hr> 标签添加分隔线
-  message += "<hr style='border: 1px solid #ccc; margin: 10px 0;'>";
-
-  // 节点信息
-  message += "<span style='color: #6959CD; font-weight: bold;'>节点 ➟ " + $environment.params + "</span>";
-  message += "</p>";
-
-  // 输出到控制台
   console.log("\n" + message);
 }
