@@ -1,0 +1,24 @@
+{
+    "name":"UI脚本合集",
+    "description":"UI-Interaction的交互脚本库",
+    "task":[
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/rates.js, tag=汇率, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/oil.js, tag=今日油价, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/appdoor.js, tag=AppleStore限免, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/net-lsp-x.js, tag=网络信息变化通知, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/ipinfo.txt, tag=IP位置查询, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/server_info.js, tag=节点位置查询, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Urltest.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=c=https://raw.githubusercontent.com/podipod/mini/master/Color/Streaming.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/geo_location.js, tag=GeoIP 查询, img-url==https://raw.githubusercontent.com/podipod/mini/master/Color/Available.png",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/ytb-ui-check.js, tag=YouTube 查询, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Color/YouTube.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/nf-ui-check.js, tag=Netflix 查询, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Netflix.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/disney-ui-check.js, tag=Disneyᐩ 查询, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Color/DisneyPlus.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/switch-check-ytb.js, tag=YouTube 切换, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/YouTube.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/switch-check-nf.js, tag=Netflix 切换, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Netflix.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/switch-check-disneyplus.js, tag=Disneyᐩ 切换, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Color/DisneyPlus.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/switch-check-google.js, tag=Google 切换, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Google.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/traffic-check.js, tag=策略流量查询, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Global.png, enabled=true",
+        "event-network network-direct.js, tag=Direct 策略切换, img-url=switch.2.system",
+        "event-interaction https://raw.githubusercontent.com/podipod/quantumult-x_task/main/server-info-plus.js, tag=节点信息Plus, img-url=https://raw.githubusercontent.com/podipod/mini/master/Color/Catnet.png"
+    ]
+}
